@@ -17,7 +17,7 @@ export default function Home(props: any) {
 }
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-  const books: Book[] = await getData("AWS");
+  const books: Book[] = await getData("日本むかし話");
   return {
     props: { items: books },
   };
