@@ -52,7 +52,7 @@ export default function Home(props: any) {
 }
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-  var input = context?.query?.input?.toString() ?? "";
+  var input = context?.query?.input?.toString() ?? "AWS";
   const books: Book[] = await getData(input);
   return {
     props: { items: books },
