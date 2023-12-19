@@ -12,6 +12,8 @@ yarn dev
 pnpm dev
 # or
 bun dev
+# or (今回のプロジェクトは、以下コマンドで実績あり。このコマンドを実行すると、node_modulesが作成される。)
+npm upgrade
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
