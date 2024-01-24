@@ -78,7 +78,7 @@ export default function Home(props: any) {
             <button onClick={clickButton} disabled={!input}>
               {" "}
               {/*入力項目が未入力の場合、非活性*/}
-              調べてみる
+              調べてみました。如何でしたか？
             </button>
           </div>
           <br></br>
