@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "oouo-diogo-perdigao.docthis",
+    "saikou9901.evilinspector",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    "oderwat.indent-rainbow",
+    "ionutvmi.path-autocomplete",
+    "esbenp.prettier-vscode"
+  ]
+}
